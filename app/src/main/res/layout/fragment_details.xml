@@ -4,9 +4,170 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Systolic"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <EditText
+        android:id="@+id/etext1"
+        android:background="@drawable/edittextshadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:hint="Enter Systolic"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etext1"
+        android:text="Diastolic"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/etext2"
+        android:background="@drawable/edittextshadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:hint="Enter Diastolic"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etext2"
+        android:text="Respiration Rate"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/etext3"
+        android:background="@drawable/edittextshadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:hint="Enter Respiration Rate(beats/minute)"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etext3"
+        android:text="Pulse Rate"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/etext4"
+        android:background="@drawable/edittextshadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:hint="Enter Pulse Rate"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etext4"
+        android:text="Body Temperature"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/etext5"
+        android:background="@drawable/edittextshadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:hint="Enter Body Temperature"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etext5"
+        android:text="Body Mass Index"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/etext6"
+        android:background="@drawable/edittextshadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text6"
+        android:hint="Enter Body Mass Index"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/submitbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Details"
-        android:layout_centerInParent="true"
-        android:textSize="30sp"/>
+        android:background="@drawable/rounded_corner"
+        android:layout_below="@id/etext6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:textColor="#ffffff"/>
+
 </RelativeLayout>
